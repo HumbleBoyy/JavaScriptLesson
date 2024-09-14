@@ -18,7 +18,9 @@ const person = {
 
 console.log(person.firstname, person.lastName, person.hobbies[1], person.adress.city)
 
+// Pulling out something from an object
 const {firstname, lastName, adress:{city} } = person;
+
 console.log(firstname, lastName, city)
 
 
@@ -37,3 +39,30 @@ It is commonly used for transmitting data in web applications
 
 
 
+const todos = [
+    {
+        id:1,
+        text:"Having dinner with family",
+        isDone:true
+    },
+    {
+        id:2,
+        text:"Making money",
+        isDone:false
+    },
+    {
+        id:3,
+        text:"Take out the trash",
+        isDone:true
+    },
+    {
+        id:4,
+        text:"Going out with friends",
+        isDone:true
+    }
+]
+
+console.log(todos[1].isDone)
+
+const todoJson = JSON.stringify(todos)
+console.log(todoJson)

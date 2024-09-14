@@ -31,6 +31,7 @@ const todoText = todos.filter(function(todo){
 
 console.log(todoText)
 
+
 // forEach, map, filter
 // todos.forEach(function(todo){
 //  console.log(todo.id + "ForEach");
@@ -57,9 +58,13 @@ console.log(todoText)
 
 
 // For loops
-// for(let i = 0; i < todos.length; i++){
-//     console.log(todos[i].text)
-// }
+for(let i = 0; i < todos.length; i++){
+    console.log(todos[i].text)
+}
+
+for(let i = 0; i < 1000; i++){
+    console.log(i)
+}
 
 
 
