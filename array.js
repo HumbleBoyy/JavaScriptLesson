@@ -10,6 +10,12 @@ fruits.push('PineApple')
 // Adding item to begining of an array
 fruits.unshift('Pomigranate')
 
+// Taking a last item from an array
+// fruits.pop()
 
+// Taking index of item in an array
+console.log(fruits.indexOf('PineApple'))
+
+console.log(Array.isArray(numbers))
 console.log(numbers)
 console.log(fruits)
