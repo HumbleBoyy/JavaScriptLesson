@@ -7,6 +7,9 @@
     color: aliceblue;
     background: #0c0000;
   }
+  .uzbek{
+    color: rgb(0, 206, 127);
+  }
   html{
     font-size: 62.5%;
   }
@@ -27,7 +30,7 @@
   }
   .wrapper{
     border: 2px solid yellow;
-    height: 300px;
+    height: auto;
     padding: 1rem;
   }
 
@@ -42,6 +45,18 @@
     padding-top: 16rem;
     color: aliceblue;
     height: 100vh;
+  }
+
+  .dataTypeWrapper{
+    
+    margin-top: 2rem;
+  }
+
+  .dataDescription{
+    font-size: 2rem;
+  }
+  .dataType{
+    font-size: 3rem;
   }
 
   ul li {
