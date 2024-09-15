@@ -24,6 +24,11 @@
     border-bottom: 2px solid #fff;
     padding: 1rem;
   }
+  .title_Add_user{
+    font-size: 4rem;
+    color: rgb(255, 162, 0);
+    padding: 1rem;
+  }
   .Secondary_title{
     font-size: 4rem;
     padding: 1rem;
@@ -65,6 +70,14 @@
 .string{
   color: rgb(20, 67, 220);
   font-size: 2.5rem;
+}
+
+.second_Section{
+  padding-top: 10rem;  
+  height: 100vh;
+}
+.addUser{
+  text-align: center;
 }
   ul li {
     padding: 5px;

@@ -1,3 +1,33 @@
+// Contructor function
+function Person(firstName, lastName, dob){
+   this.firstName = firstName;
+   this.lastName = lastName;
+   this.dob = new Date(dob);
+   this.getBirthYear = function(){
+      return this.dob.getFullYear()
+   }
+}
+
+
+
+// Instantiate object
+const person1 = new Person('Asadulloh', "Abdurakhmon", '7-18-2003');
+console.log(person1)
+
+const person2 = new Person('Asadbek', "Asdulloh", '6-18-2003');
+console.log(person2.getBirthYear())
+
+// Class
+class Personw{
+   constructor(getName, getLastName, getDob){
+      this.getName = getName;
+      this.getLastName = getLastName;
+      this.getDob = new Date(getDob)
+   }
+}
+const persone = new Personw('AsadullohMan', "Abdurakhmonov", '7-18-2003')
+console.log(persone)
+
 /* 
 A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, 
 but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious 
@@ -48,8 +78,8 @@ console.log(addNums())
 
 
 //Arrow function 
-const addNums = () => {
-    return(num1 * num2)
- }
+// const addNums = () => {
+//     return(num1 * num2)
+//  }
  
- console.log(addNums())
+//  console.log(addNums())
