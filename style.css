@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family: "SUSE", sans-serif;
     list-style: none;
-    color: aliceblue;
-    background: #0c0000;
+    color: rgb(0, 0, 0);
+   
   }
   .uzbek{
     color: rgb(0, 206, 127);
@@ -73,7 +73,7 @@
 }
 
 .second_Section{
-  padding-top: 10rem;  
+  padding-top: 60rem;  
   height: 100vh;
 }
 .addUser{
@@ -91,7 +91,7 @@
   }
   
   .container {
-    margin: auto;
+    margin: 70rem auto;
     width: 500px;
     overflow: auto;
     padding: 3rem 2rem;
@@ -99,11 +99,12 @@
   
   #my-form {
     padding: 2rem;
-    background: #f4f4f4;
+    background: #ff9900;
   }
   
   #my-form label {
     display: block;
+    font-size: 1.5rem;
   }
   
   #my-form input[type='text'] {
@@ -119,7 +120,7 @@
     width: 100%;
     padding: 10px 15px;
     border: 0;
-    background: #333;
+    background: #ff0404;
     color: #fff;
     border-radius: 5px;
     margin: 5px 0;
