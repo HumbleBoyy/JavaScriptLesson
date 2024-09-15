@@ -19,6 +19,11 @@ const todos = [
         id:3,
         text:"Working",
         isDone:false
+    },
+    {
+        id:4,
+        text:"Dev",
+        isDone:false
     }
 ];
 
@@ -33,11 +38,15 @@ console.log(todoText)
 
 
 // forEach, map, filter
-// todos.forEach(function(todo){
-//  console.log(todo.id + "ForEach");
-// });
+todos.forEach(function(todo){
+ console.log(todo.id + " ForEach");
+});
 
+const todoDone = todos.filter((todo)=> {
+    return todo.isDone === true
+})
 
+console.log(todoDone)
 
 
 
@@ -51,9 +60,9 @@ console.log(todoText)
 
 
 // a for of loop
-// for(let todo of todos){
-//     console.log(todo.id)
-// }
+for(let todo of todos){
+    console.log(todo.id, todo.text)
+}
 
 
 
@@ -62,15 +71,15 @@ for(let i = 0; i < todos.length; i++){
     console.log(todos[i].text)
 }
 
-for(let i = 0; i < 1000; i++){
-    console.log(i)
-}
+// for(let i = 0; i < 1; i++){
+//     console.log(i)
+// }
 
 
 
 // While loop
-// let i = 0;
-// while(i < 10){
-//     console.log(`while loop Number: ${i}`);
-//     i++;
-// }
+let i = 0;
+while(i < 10){
+    console.log(`While loop Number: ${i}`);
+    i++;
+}
