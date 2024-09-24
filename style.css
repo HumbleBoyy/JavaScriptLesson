@@ -47,13 +47,13 @@
     color: rgb(255, 250, 0);
   }
   .data_types{
-    padding-top: 16rem;
+    padding-top: 2rem;
     color: aliceblue;
     height: 100vh;
   }
 
   .dataTypeWrapper{
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
 
   .dataDescription{
@@ -73,7 +73,7 @@
 }
 
 .second_Section{
-  padding-top: 60rem;  
+  padding-top: 0rem;  
   height: 100vh;
 }
 .addUser{
@@ -91,10 +91,10 @@
   }
   
   .container {
-    margin: 70rem auto;
+    margin: 1rem auto;
     width: 500px;
     overflow: auto;
-    padding: 3rem 2rem;
+    padding: 7rem 2rem;
   }
   
   #my-form {
