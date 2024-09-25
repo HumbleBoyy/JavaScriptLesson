@@ -13,5 +13,8 @@ console.log('My name is' + name + ' and I am ' + age + ' years old')
 // Template string
 console.log(`My name is  ${name} and I am  ${age}  years old`)
 
+
+console.log(name.substring(2,6))
+console.log(name.toUpperCase())
 console.log(name.length)
 console.log(name.split(','))
